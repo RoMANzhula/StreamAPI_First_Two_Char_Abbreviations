@@ -29,6 +29,6 @@ public class Main {
                 .stream()
                 .filter(listOfCountries::contains)
                 .limit(14)
-                .reduce("", (acc, val) -> acc + val.substring(0, 2).toUpperCase() + " ")); //Данное решение подсмотрел у Drona(Дмитрия)
+                .reduce("", (acc, val) -> acc + val.substring(0, 2).toUpperCase() + " "));
     }
 }
